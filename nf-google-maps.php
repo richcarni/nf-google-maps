@@ -76,6 +76,7 @@ add_filter( 'ninja_forms_register_fields', 'nf_google_maps_register_fields');
 /**
  * Get base classes from ninja-forms
  */
+require_once plugin_dir_path( __FILE__ ) . "../ninja-forms/includes/Abstracts/Element.php";
 require_once plugin_dir_path( __FILE__ ) . "../ninja-forms/includes/Abstracts/Field.php";
 require_once plugin_dir_path( __FILE__ ) . "../ninja-forms/includes/Abstracts/Input.php";
 require_once plugin_dir_path( __FILE__ ) . "../ninja-forms/includes/Fields/Textbox.php";
